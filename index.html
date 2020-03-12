@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>hexxi - a creative platform where culture interaction happens</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
@@ -12,7 +13,7 @@
 <body>
     <div data-server-rendered="true" id="__nuxt"><div id="__layout"><div class="l-page">
     <header class="m-header-footer -header">
-        <div class="hexxi-logo pad-left v-center">hexxi</div>
+        <div class="hexxi-logo pad-left v-center hash-go" data-hash=''>hexxi</div>
         <p class="hexxi-logo-word"><span>
                 HEXXI is a creative platform where<br/>
 culture interaction happens.
@@ -29,11 +30,11 @@ culture interaction happens.
             <div class="m-navigation__title">program</div>
         </a> <a href="javascript:void(0)" class="m-navigation__link -members hash-go"  data-hash='/focus'>
             <div class="m-navigation__title">focus</div>
-        </a> <a href="javascript:void(0)" class="m-navigation__link -membership hash-go" data-hash='/info'>
+        </a> <a href="javascript:void(0)" class="m-navigation__link -membership hash-go" data-hash='/whoweare'>
             <div class="m-navigation__title">who we are</div>
         </a><a href="javascript:void(0)" class="m-navigation__link -collabaration hash-go" data-hash='/collaboration'>
             <div class="m-navigation__title">collaboration</div>
-        </a> <a href="javascript:void(0)" class="m-navigation__link -contact hash-go" data-hash='/program'>
+        </a> <a href="javascript:void(0)" class="m-navigation__link -contact hash-go" data-hash='/archive'>
             <div class="m-navigation__title">archive</div>
         </a></nav>
 
@@ -65,7 +66,7 @@ culture interaction happens.
                         <p>
                             <strong>E: <a href="mailto: contact@hexxi.co"> contact@hexxi.co</a></strong>
                         </p>
-                        <a href="mailto: contact@hexxi.co" class="e-button -full-width -margin-top">send us an email!</a>
+                        <a href="mailto: contact@hexxi.co" class="e-button sendus -full-width -margin-top">send us an email!</a>
                     </div>
                 </div>
                 <p class="powerby">The website is designed by <a href="http://www.yinxilu.com">yinxilu.com</a> and programed by Sun Changnan</p>
@@ -105,18 +106,82 @@ culture interaction happens.
                   <div class="info-layer-table">
                       <ul class="clearfix">
                           <li class="hash-go" data-hash='/info/yinxi-lu'>yinxi lu</li>
-                          <li class="hash-go" data-hash='/info/yinxi-lu'>fred zhang</li>
-                          <li class="hash-go" data-hash='/info/yinxi-lu'>eki ong</li>
-                          <li class="hash-go" data-hash='/info/yinxi-lu'>junchao yang</li>
-                          <li class="hash-go" data-hash='/info/yinxi-lu'>sebastiano pibia</li>
-                          <li class="hash-go" data-hash='/info/yinxi-lu'>xiyao hu</li>
+                          <li class="hash-go" data-hash='/info/fred-zhang'>fred zhang</li>
+                          <li class="hash-go" data-hash='/info/eki-ong'>eki ong</li>
+                          <li class="hash-go" data-hash='/info/sebastiano-pibia'>sebastiano pibia</li>
+                          <!-- <li class="hash-go" data-hash='/info/yinxi-lu'>sebastiano pibia</li>
+                          <li class="hash-go" data-hash='/info/yinxi-lu'>xiyao hu</li> -->
                       </ul>
                   </div>
             </div>
         </div>
 </div>
 
+<div class="target-wrap zindexwhoweare  hash-target whoweare-cont" data-hash="/whoweare">
+    <div class="common-layer">
+        <div class="left-layer">
+            <div class="left-layer-title pad-left">who we are</div>
+            <div class="left-layer-body "><p>HEXXI is a place of a group of designers and architects with different backgrounds, <br/>
+                experience and professionalisms come together and have fun.</p>
+                <p>
+                    HEXXI develops projects in diverse areas by bringing together creative and art direction <br/>
+                with a wide range of clients, from cultural institutions and publishers to brands and private <br/>
+                companies, we work internationally but we focus locally
+                </p>
+                <p>HEXXI interprets projects in a humanistic way as the co-ordinated action of people and <br/>
+                    disciplines in the conviction that creativity is a shared and pluralist act. </p>
+                <p>
+                    HEXXI is a place open to cultural events and to collaboration with artists and professionals <br/>
+                working in all related fields.
+                </p></div>
+        </div>
+        <div class="right-layer">
+            <a href="javascript:hashback()" class="l-layer__close nuxt-link-active" ><svg
+                width="41" height="40" viewbox="0 0 41 40" xmlns="http://www.w3.org/2000/svg">
+                <g fill-rule="evenodd">
+                  <path d="M6.372 39.68L40.41 5.645 34.75-.014.715 34.021"></path>
+                  <path d="M.713 5.645L34.75 39.679l5.66-5.657L6.371-.012"></path>
+                </g>
+              </svg></a>
+
+              <div class="info-layer-table">
+                  <ul class="clearfix">
+                      <li class="hash-go" data-hash='/whoweare/yinxi-lu'>yinxi lu</li>
+                      <li class="hash-go" data-hash='/whoweare/fred-zhang'>fred zhang</li>
+                      <li class="hash-go" data-hash='/whoweare/eki-ong'>eki ong</li>
+                      <li class="hash-go" data-hash='/whoweare/sebastiano-pibia'>sebastiano pibia</li>
+                      <!-- <li class="hash-go" data-hash='/whoweare/yinxi-lu'>sebastiano pibia</li>
+                      <li class="hash-go" data-hash='/whoweare/yinxi-lu'>xiyao hu</li> -->
+                  </ul>
+              </div>
+        </div>
+    </div>
+</div>
+
 <div class="target-wrap zindexprogram hash-target" data-hash="/program">          
+    <div class="common-layer">
+        <div class="m-space__slider-controls"><button class="m-space__slider-button -prev" tabindex="0" role="button"
+                aria-label="Previous slide" aria-disabled="false"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="43"
+                    viewBox="0 0 28 43">
+                    <path fill="none" fill-rule="evenodd" stroke="#000" stroke-width="8"
+                        d="M25.02 2.904L6.024 21.9l17.95 17.95"></path>
+                </svg></button> <button class="m-space__slider-button -next" tabindex="0" role="button" aria-label="Next slide"
+                aria-disabled="false"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="43" viewBox="0 0 29 43">
+                    <path fill="none" fill-rule="evenodd" stroke="#000" stroke-width="8"
+                        d="M3.503 39.85L22.5 20.853 4.55 2.903"></path>
+                </svg></button></div>
+        <a href="javascript:hashback()" class="l-layer__close nuxt-link-active"><svg width="41" height="40" viewBox="0 0 41 40" xmlns="http://www.w3.org/2000/svg">
+            <g fill-rule="evenodd">
+                <path d="M6.372 39.68L40.41 5.645 34.75-.014.715 34.021"></path>
+                <path d="M.713 5.645L34.75 39.679l5.66-5.657L6.371-.012"></path>
+            </g>
+            </svg></a>
+
+            
+    </div>
+</div>
+
+<div class="target-wrap zindexarchive hash-target" data-hash="/archive">          
     <div class="common-layer">
         <div class="m-space__slider-controls"><button class="m-space__slider-button -prev" tabindex="0" role="button"
                 aria-label="Previous slide" aria-disabled="false"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="43"
@@ -196,7 +261,7 @@ culture interaction happens.
                 <li class="m-table__box">arper kinesit chair</li>
                 <li class="m-table__box">cleaning services</li>
                 <li class="m-table__box">printing facilities</li>
-            </ul> <a href="mailto:hi@plant22.co" class="e-button -full-width -margin-top">send us an email for more
+            </ul> <a href="mailto:hi@plant22.co" class="e-button sendus -full-width -margin-top">send us an email for more
                 information</a>
         </div>
     </div>
