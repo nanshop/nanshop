@@ -11,8 +11,34 @@ for (var i = 0; i < aA.length; i++) {
 
 var programsData = [
   {
-    pic: '/images/programs/Encounter-Barbican.01.jpg',
-    detailPic:['/images/programs/Encounter-Barbican.01.jpg','/images/programs/Space-Odyssey.02.jpg',],
+    pic: '/images/programs/project b003_a space odyssey/cover page.jpg',
+    detailPic:['/images/programs/project b003_a space odyssey/cover page.jpg',
+    '/images/programs/project b003_a space odyssey/Archi-1.jpg',
+    '/images/programs/project b003_a space odyssey/Archi-12.jpg',
+    '/images/programs/project b003_a space odyssey/Archi-33.JPG',
+    '/images/programs/project b003_a space odyssey/Archi-41.JPG',
+    '/images/programs/project b003_a space odyssey/Archi-70.JPG',
+    '/images/programs/project b003_a space odyssey/Archi-77.JPG',
+  ],
+    rightDom:
+        '<div class="l-layer__content -tight"><div class="m-member"> <h1 class="m-member__name">Project </h1>  <p class="m-member__text">' +
+        '-project pb003_self-published photo book  </p> <p class="m-member__text">' +
+        '-photographer / editor / book designer: yinxi lu  </p> <p class="m-member__text">' +
+        '-time: 2019 </p><p class="m-member__text">' +
+        '-location: Italy, England  ' +
+        '</p>' +
+        '</div></div>',
+  },
+  {
+    pic: '/images/programs/project b004_love has to be reinvented/cover page.jpg',
+    detailPic:['/images/programs/project b004_love has to be reinvented/cover page.jpg',
+    '/images/programs/project b004_love has to be reinvented/RFR15.jpg',
+    '/images/programs/project b004_love has to be reinvented/RFR16.jpg',
+    '/images/programs/project b004_love has to be reinvented/RFR20.jpg',
+    '/images/programs/project b004_love has to be reinvented/RFR22.jpg',
+    '/images/programs/project b004_love has to be reinvented/RFR23.jpg',
+    '/images/programs/project b004_love has to be reinvented/RFR26.jpg',
+  ],
     rightDom:
         '<div class="l-layer__content -tight"><div class="m-member"> <h1 class="m-member__name">Project </h1>  <p class="m-member__text">' +
         '-time: </p> <p class="m-member__text">' +
@@ -23,8 +49,10 @@ var programsData = [
         '</div></div>',
   },
   {
-    pic: '/images/programs/Space-Odyssey.02.jpg',
-    detailPic:['/images/programs/Space-Odyssey.02.jpg',],
+    pic: '/images/programs/project b005_Atlas/cover.jpg',
+    detailPic:['/images/programs/project b005_Atlas/cover.jpg',
+    '/images/programs/project b005_Atlas/01.jpg',
+  ],
     rightDom:
         '<div class="l-layer__content -tight"><div class="m-member"> <h1 class="m-member__name">Project </h1>  <p class="m-member__text">' +
         '-time: </p> <p class="m-member__text">' +
@@ -34,13 +62,49 @@ var programsData = [
         '</p>' +
         '</div></div>',
   },
+  {
+    pic: '/images/programs/project pb006_a room of one’s own/cover.jpg',
+    detailPic:['/images/programs/project pb006_a room of one’s own/cover.jpg',
+    '/images/programs/project pb006_a room of one’s own/01.JPG',
+    '/images/programs/project pb006_a room of one’s own/02.JPG',
+    '/images/programs/project pb006_a room of one’s own/03.JPG',
+    '/images/programs/project pb006_a room of one’s own/04.JPG',
+    '/images/programs/project pb006_a room of one’s own/05.JPG',
+    '/images/programs/project pb006_a room of one’s own/06.JPG',
+  ],
+    rightDom:
+        '<div class="l-layer__content -tight"><div class="m-member"> <h1 class="m-member__name">Project </h1>  <p class="m-member__text">' +
+        '-time: </p> <p class="m-member__text">' +
+        '-location: </p> <p class="m-member__text">' +
+        '-focus: </p><p class="m-member__text">' +
+        '-info: ' +
+        '</p>' +
+        '</div></div>',
+  },
+  {
+    pic: '/images/programs/project making_Mountain-shape Chopstick Holder/01.jpg',
+    detailPic:['/images/programs/project making_Mountain-shape Chopstick Holder/01.jpg',
+  ],
+    rightDom:
+        '<div class="l-layer__content -tight"><div class="m-member"> <h1 class="m-member__name">Project </h1>  <p class="m-member__text">' +
+        '-time: </p> <p class="m-member__text">' +
+        '-location: </p> <p class="m-member__text">' +
+        '-focus: </p><p class="m-member__text">' +
+        '-info: ' +
+        '</p>' +
+        '</div></div>',
+  },
+  
 ];
 
 
 var archivesData = [
   {
-    pic: '/images/archives/Mountain Shape Rack Design.jpg',
-    detailPic:['/images/archives/Mountain Shape Rack Design.jpg','/images/programs/Space-Odyssey.02.jpg',],
+    pic: '/images/archives/archive b001_Delft Reconnaissance/01.jpg',
+    detailPic:['/images/archives/archive b001_Delft Reconnaissance/01.jpg',
+    '/images/archives/archive b001_Delft Reconnaissance/02.jpg',
+    '/images/archives/archive b001_Delft Reconnaissance/03.jpg',
+    '/images/archives/archive b001_Delft Reconnaissance/04.jpg'],
     rightDom:
         '<div class="l-layer__content -tight"><div class="m-member"> <h1 class="m-member__name">Project </h1>  <p class="m-member__text">' +
         '-time: </p> <p class="m-member__text">' +
@@ -51,8 +115,42 @@ var archivesData = [
         '</div></div>',
   },
   {
-    pic: '/images/programs/Space-Odyssey.02.jpg',
-    detailPic:['/images/programs/Space-Odyssey.02.jpg',],
+    pic: '/images/archives/archive b002_Encounter Barbican/cover page.jpg',
+    detailPic:['/images/archives/archive b002_Encounter Barbican/cover page.jpg',
+    '/images/archives/archive b002_Encounter Barbican/Archi-26.JPG',
+    '/images/archives/archive b002_Encounter Barbican/Archi-27.JPG',
+    '/images/archives/archive b002_Encounter Barbican/Archi-28.JPG',
+    '/images/archives/archive b002_Encounter Barbican/Archi-29.JPG',
+    '/images/archives/archive b002_Encounter Barbican/Archi-30.JPG',
+    '/images/archives/archive b002_Encounter Barbican/Archi-31.JPG',],
+    rightDom:
+        '<div class="l-layer__content -tight"><div class="m-member"> <h1 class="m-member__name">Project </h1>  <p class="m-member__text">' +
+        '-time: </p> <p class="m-member__text">' +
+        '-location: </p> <p class="m-member__text">' +
+        '-focus: </p><p class="m-member__text">' +
+        '-info: ' +
+        '</p>' +
+        '</div></div>',
+  },
+  {
+    pic: '/images/archives/archive a001_Infrastructure Playscape/01.jpg',
+    detailPic:['/images/archives/archive a001_Infrastructure Playscape/01.jpg',
+    '/images/archives/archive a001_Infrastructure Playscape/02.jpg',
+    '/images/archives/archive a001_Infrastructure Playscape/03.jpg',
+    '/images/archives/archive a001_Infrastructure Playscape/04.jpg'],
+    rightDom:
+        '<div class="l-layer__content -tight"><div class="m-member"> <h1 class="m-member__name">Project </h1>  <p class="m-member__text">' +
+        '-time: </p> <p class="m-member__text">' +
+        '-location: </p> <p class="m-member__text">' +
+        '-focus: </p><p class="m-member__text">' +
+        '-info: ' +
+        '</p>' +
+        '</div></div>',
+  },
+  {
+    pic: '/images/archives/archive a002_Urban Dichotomy/01.png',
+    detailPic:['/images/archives/archive a002_Urban Dichotomy/01.png',
+    '/images/archives/archive a002_Urban Dichotomy/02.png',],
     rightDom:
         '<div class="l-layer__content -tight"><div class="m-member"> <h1 class="m-member__name">Project </h1>  <p class="m-member__text">' +
         '-time: </p> <p class="m-member__text">' +
