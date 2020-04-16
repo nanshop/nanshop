@@ -35,11 +35,6 @@ var programsData = [
         detailPic: ['/images/programs/project making_Mountain-shape Chopstick Holder/01.jpg'],
            rightDom: '<div class="l-layer__content -tight"><div class="m-member"> <h1 class="m-member__name title-font"> Mountain-shape Chopstick Holder </h1> <p class="m-member__text">' + 'wood craftsmanship </p> <p class="m-member__text">'+ '<span class="m-label -margin-top">time:</span> 2016-2020 </p><p class="m-member__text">' + '<span class="m-label">location:</span> Wuhan, China</p><p class="m-member__text">'+ '<span class="m-label -margin-top">designer:</span> yinxilu</p><p class="m-member__text">' + '<span class="m-label">craftsman:</span> yinxilu</p><p class="m-member__text">' + '<span class="m-label">photographer:</span> yinxilu</p><p class="m-member__text -margin-top">' + '<span class="underline">about</span>  </p><p class="m-member__text">Atlas is a photography portfolio for atelier Yinxi, it summarised the recent works for the spatial representation and documentation.' + '</p>' + '</div></div>',
   },
-  {
-    pic: '/images/programs/project making_Mountain-shape Chopstick Holder/01.jpg',
-    detailPic: ['/images/programs/project making_Mountain-shape Chopstick Holder/01.jpg','/images/programs/project making_Mountain-shape Chopstick Holder/01.jpg','/images/programs/project making_Mountain-shape Chopstick Holder/01.jpg'],
-       rightDom: '<div class="l-layer__content -tight"><div class="m-member"> <h1 class="m-member__name title-font"> Mountain-shape Chopstick Holder </h1> <p class="m-member__text">' + 'wood craftsmanship </p> <p class="m-member__text">'+ '<span class="m-label -margin-top">time:</span> 2016-2020 </p><p class="m-member__text">' + '<span class="m-label">location:</span> Wuhan, China</p><p class="m-member__text">'+ '<span class="m-label -margin-top">designer:</span> yinxilu</p><p class="m-member__text">' + '<span class="m-label">craftsman:</span> yinxilu</p><p class="m-member__text">' + '<span class="m-label">photographer:</span> yinxilu</p><p class="m-member__text -margin-top">' + '<span class="underline">about</span>  </p><p class="m-member__text">Atlas is a photography portfolio for atelier Yinxi, it summarised the recent works for the spatial representation and documentation.' + '</p>' + '</div></div>',
-},
 ]
 
 //archive数据
@@ -133,24 +128,7 @@ var memberObject = {
             'Sebastiano, (1989, Italy) graduated from TU delft with a master degree in architecture. He is fascinated about all designs which build up characters and imaginary worlds in themselves. His conceptual thinking and practical method of developing a creative idea into a feasible individual solution for the design strengthens the ability of the team to built on a deep understanding of its objectives.' +
             '</p> </div></div>',
     },
-    'zhangsan': {
-        class: 'zhangsan',
-        name: 'zhangsan',
-        image: '/images/members/fred.png',
-        bgcolor: '#00aeef',
-        rightDom: '<div class="l-layer__content -tight"><div class="m-member"> <h1 class="m-member__name title-font">zhangsan </h1> <p class="m-member__title">-landscape architect / photographer </p> <p class="m-member__text">' +
-            '-contact: <a href="mailto:smelescwx@gmail.com">smelescwx@gmail.com  </a></p> <p class="m-member__text -margin-top">' +
-            '-location: <a href="javascript:void(0)"> copenhagen, danmark  </a>' +
-            '</p>' +
-            '<p class="m-member__text -margin-top">' +
-            '-focus: Fred is a lead design landscape architect and works on a variety of international landscape ' +
-            'and urban space projects across Europe and Asia. Holding a bachelor’s degree in ' +
-            'architecture from China and a master’s degree in landscape architecture from Denmark, ' +
-            'Fred has a very valuable understanding of how to create cohesive urban solutions where ' +
-            'buildings, infrastructure, landscape and city nature fusion in sustainable and holistic design, ' +
-            'that increases life quality and strengthens the environment. ' +
-            '</p> </div></div>',
-    },
+    
 }
 
 
@@ -351,7 +329,7 @@ var renderProject = function (projectData, index, isProgram) {
         (isProgram ? '#40ae49' : '#e3a923') +
         '">' +
         projectData.rightDom +
-        '</div><p style="position: absolute;right: 20px;bottom: 10px;font-size: 12px;">copyright © 2020 hexxi.co | All rights reserved</p></div></div></div>'
+        '</div><p class="copyright" style="position: absolute;right: 20px;bottom: 10px;font-size: 12px;">copyright © 2020 hexxi.co | All rights reserved</p></div></div></div>'
     $(domTemplate).appendTo($('.l-page'))
     setTimeout(function () {
         $('.' + (isProgram ? 'project' : 'archive') + '-' + index).addClass('act')

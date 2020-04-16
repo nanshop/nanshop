@@ -1224,6 +1224,10 @@ html {
     animation: swiper-preloader-spin 1s steps(12) infinite
   }
 
+  .collaboration-title{
+    display: none
+  }
+
   .swiper-lazy-preloader:after {
     display: block;
     content: "";
@@ -2723,11 +2727,11 @@ right: 0;
     display: none
   }
 
-  /* @media only screen and (max-width:600px) {
-    .m-navigation__title {
+  @media only screen and (max-width:600px) {
+    /* .m-navigation__title {
       font-size: 4.8rem
-    }
-  } */
+    } */
+  }
 
   .m-party-parrot {
     display: block;
@@ -3221,6 +3225,7 @@ right: 0;
 }
 
 .info-layer-table ul li{
+  margin-top: -1px;
   float: left;
   width: 50%;display: block;
   padding-left: 50px;
@@ -3316,6 +3321,10 @@ right: 0;
     width: auto!important;
     left: 50px;
     right: 50px;
+}
+
+p.copyright {
+  padding-left: 20px;
 }
 
 .project-modal .m-member__name{
@@ -3489,7 +3498,46 @@ background-size: cover;
       display: none;
     }
 
+
+    /* .m-navigation__title {
+      font-size: 7rem
+    } */
+
+
+
+    /* 标题字体 */
+    .title-font{
+      font-size: 3.5rem!important;
+      color: #000!important;
+    }
+
+    /* 正文字体 */
+    .project-modal .m-member__text,.left-layer-body,.m-member,.copyright,.m-content ,.hexxi-logo-word,.powerby,.sendus,.left-layer-body p,.m-content a,.powerby a{
+      font-size: 12px!important;
+      color: #000!important;
+    }
+
+    .sendus{
+      color: #fff!important;
+    }
+
+/* logo */
+    .hexxi-logo{
+
+    }
     @media only screen and (max-width:720px) {
+
+      .left-layer-title, .left-layer-body{
+        width: 100%;
+      }
+
+      .m-navigation__title {
+        font-size: 4.8rem
+      }
+
+      .hexxi-logo,.m-navigation__link,.info-nav,.contact-nav{
+        padding-left: 20px;
+      }
       .common-layer{
         padding: 20px;
         overflow-y: auto;
@@ -3514,6 +3562,7 @@ background-size: cover;
         position: relative;
         left: initial;
         right: initial;
+        bottom: 0;
       }
 
       .powerby{
@@ -3705,13 +3754,28 @@ background-size: cover;
       }
     }
 
+    @media (-webkit-min-device-pixel-ratio: 2) { /* 标题字体 */
+      .title-font{
+        font-size: 5.5rem!important;
+      }
 
-/* 标题字体 */
-    .title-font{
-      font-size: 25px!important;
-    }
+      .hexxi-logo{
+        font-size: 5.5rem!important;
+      }
+  
+      /* 正文字体 */
+      .project-modal .m-member__text,.copyright,.left-layer-body,.m-member,.m-content ,.hexxi-logo-word,.powerby,.sendus,.left-layer-body p,.m-content a,.powerby a{
+        font-size: 16px!important;
+      } }
 
-    /* 正文字体 */
-    .project-modal .m-member__text,.left-layer-body,.m-member,.m-content ,.hexxi-logo-word,.powerby,.sendus{
-      font-size: 12px!important;
-    }
+
+
+
+    
+
+
+
+
+
+
+
