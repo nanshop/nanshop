@@ -2997,6 +2997,7 @@ right: 0;
  
 }
 
+
 .rightmodal.hash-target.act .left-layer{
   transform: translateX(0%);
     -webkit-transition: transform .5s cubic-bezier(.19,1,.22,1),-webkit-transform .5s cubic-bezier(.19,1,.22,1);
@@ -3515,6 +3516,7 @@ background-size: cover;
     .project-modal .m-member__text,.left-layer-body,.m-member,.copyright,.m-content ,.hexxi-logo-word,.powerby,.sendus,.left-layer-body p,.m-content a,.powerby a{
       font-size: 12px!important;
       color: #000!important;
+      line-height: 2.5rem;
     }
 
     .sendus{
@@ -3525,12 +3527,52 @@ background-size: cover;
     .hexxi-logo{
 
     }
+
+
+    @media only screen and (min-width:720px) {
+      .project-modal .copyright{
+        left: 30px!important;
+        bottom: 0!important;
+        background-color: #40ae49!important;
+        padding-bottom: 10px!important;
+        padding-top: 10px!important;
+      }
+    }
+    
     @media only screen and (max-width:720px) {
 
       .left-layer-title, .left-layer-body{
         width: 100%;
       }
 
+      .copyright{
+        padding-left: 0!important;
+        right: 0!important;
+      }
+
+      .focus-word{
+        position: relative;
+      }
+
+      .zindexprogram .copyright,.zindexarchive .copyright{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+      }
+
+      .new-collaboration-rightmodal .sendus,.contact-rightmodal .sendus{
+        margin-bottom: 10px;
+        color: #fff!important;
+        background-color: #000!important;
+      }
+
+      .collaboration-layer-table ul{
+        padding: 0 20px;
+      }
+
+      .collaboration-layer-table ul li{
+        text-align: center;
+      }
+      
       .m-navigation__title {
         font-size: 4.8rem
       }
@@ -3541,6 +3583,10 @@ background-size: cover;
       .common-layer{
         padding: 20px;
         overflow-y: auto;
+      }
+
+      .contact-rightmodal .l-layer__content{
+        margin-top: 5.5rem;
       }
       .left-layer{
         position: relative;
@@ -3588,25 +3634,19 @@ background-size: cover;
       }
 
       .content-layer-contact .l-layer__title,.focus-rightmodal .l-layer__title{
-        position: absolute;
-        padding-bottom: 30px;
-    top: calc(-42vh - 60px);
+        position: relative;
     padding-left: 0;
-    display: flex;
-    align-items: center;
-    height: 90px;
-    padding-right: 90px;
-        left: 0;
+    /* top: calc(-42vh - 60px); */
+    left: 0;
+      }
+
+      .focus-rightmodal .l-layer__title{
+        padding-top: 20px;
       }
 
       .project-modal .m-member__name{
-        position: absolute;
-    top: calc(-42vh - 60px);
-    padding-right: 90px;
-    height: 90px;
-    padding-left: 0;
-    display: flex;
-    align-items: center;
+        padding-left: 0;
+    line-height: 1.1;
       }
 
       .m-member{padding-top: 20px;}
@@ -3646,6 +3686,8 @@ background-size: cover;
       .info-layer-table ul li{
         float: unset;
         width: 100%;
+        padding-left: 0;
+        text-align: center;
       }
 
       .left-layer-title{
@@ -3707,11 +3749,8 @@ background-size: cover;
 
       
       .info-member .m-member__name{
-        position: absolute;
-    top: calc(-42vh - 60px);
-    height: 60px;
-    display: flex;
-    align-items: center;
+        position: relative;
+    line-height: 1.1;
       }
 
       .info-member  .l-layer__close{
@@ -3772,7 +3811,9 @@ background-size: cover;
 
 
     
-
+      .hexxi-logo-word{
+        color: #fcf8d3!important;
+      }
 
 
 
