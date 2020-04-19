@@ -3334,6 +3334,7 @@ p.copyright {
     font-size: 24px;
     font-weight: normal;
     padding-bottom: 30px;
+    line-height: 1.2
 }
 
 .project-modal .m-member__text{
@@ -3536,6 +3537,10 @@ background-size: cover;
         background-color: #40ae49!important;
         padding-bottom: 10px!important;
         padding-top: 10px!important;
+      }
+
+      .is-archive .copyright{
+        background-color: #e3a923!important;
       }
     }
     
