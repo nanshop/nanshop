@@ -2808,9 +2808,11 @@ right: 0;
     display: block;
     height: calc(100% - 64px);
     margin-top: 32px;
-    max-width: calc(100vw - 64px);
+    /* max-width: calc(100vw - 64px); */
     width: auto
   }
+
+
 
   /* .m-space__photo:nth-child(2)
 {
@@ -3531,6 +3533,8 @@ background-size: cover;
 
 
     @media only screen and (min-width:720px) {
+
+      
       .project-modal .copyright{
         left: 30px!important;
         bottom: 0!important;
@@ -3545,6 +3549,10 @@ background-size: cover;
     }
     
     @media only screen and (max-width:720px) {
+
+      .m-space__photo {
+        height: calc(86% - 150px);
+      }
 
       .left-layer-title, .left-layer-body{
         width: 100%;
@@ -3811,6 +3819,21 @@ background-size: cover;
       .project-modal .m-member__text,.copyright,.left-layer-body,.m-member,.m-content ,.hexxi-logo-word,.powerby,.sendus,.left-layer-body p,.m-content a,.powerby a{
         font-size: 16px!important;
       } }
+
+
+      @media (-webkit-min-device-pixel-ratio: 3) { /* 标题字体 */
+        .title-font{
+          font-size: 7.5rem!important;
+        }
+  
+        .hexxi-logo{
+          font-size: 7.5rem!important;
+        }
+    
+        /* 正文字体 */
+        .project-modal .m-member__text,.copyright,.left-layer-body,.m-member,.m-content ,.hexxi-logo-word,.powerby,.sendus,.left-layer-body p,.m-content a,.powerby a{
+          font-size: 22px!important;
+        } }
 
 
 
