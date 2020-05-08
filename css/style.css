@@ -3822,7 +3822,7 @@ background-size: cover;
 
 
       @media (-webkit-min-device-pixel-ratio: 3) { /* 标题字体 */
-        .title-font{
+        /* .title-font{
           font-size: 7.5rem!important;
         }
   
@@ -3830,10 +3830,10 @@ background-size: cover;
           font-size: 7.5rem!important;
         }
     
-        /* 正文字体 */
         .project-modal .m-member__text,.copyright,.left-layer-body,.m-member,.m-content ,.hexxi-logo-word,.powerby,.sendus,.left-layer-body p,.m-content a,.powerby a{
           font-size: 22px!important;
-        } }
+        }  */
+      }
 
 
 
