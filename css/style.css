@@ -662,8 +662,18 @@ html {
       font-size: 6px
     }
   }
-
   @media only screen and (min-width:1024px) and (max-width:1439px) {
+    html {
+      font-size: 6px
+    }
+  }
+
+  @media only screen and (min-width:1440px) {
+    html {
+      font-size: 6px
+    }
+  }
+  /* @media only screen and (min-width:1024px) and (max-width:1439px) {
     html {
       font-size: 7px
     }
@@ -673,7 +683,7 @@ html {
     html {
       font-size: 8px
     }
-  }
+  } */
 
 
 
@@ -2890,6 +2900,8 @@ right: 0;
 
   .info-nav-w{
     background-color:  #0e5937;
+    position: relative;
+    z-index: 200;
   }
 
   .contact-nav,.info-nav{
@@ -3386,7 +3398,7 @@ background-size: cover;
   padding: 10px 50px;
 }
 
-
+/* 
 .hexxi-logo:active,
     .hexxi-logo:focus,
     .hexxi-logo:hover {
@@ -3394,7 +3406,7 @@ background-size: cover;
       transform: scale(1.1);
       -webkit-transition-duration: .8s;
       transition-duration: .8s
-    }
+    } */
 
 
     .focus-rightmodal .l-layer__title{
@@ -3520,6 +3532,10 @@ background-size: cover;
       font-size: 12px!important;
       color: #000!important;
       line-height: 2.5rem;
+    }
+
+    .sendus{
+      color: #fff!important;
     }
 
     .sendus{
@@ -3848,3 +3864,9 @@ background-size: cover;
 
 
 
+.m-header-footer:hover .hexxi-logo{
+  -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      -webkit-transition-duration: .8s;
+      transition-duration: .8s
+}
